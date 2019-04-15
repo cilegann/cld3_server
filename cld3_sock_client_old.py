@@ -1,7 +1,7 @@
 import socket
 import time
-SERVER_IP='140.112.26.127'
-SERVER_PORT=8886
+SERVER_IP='your.ip.addr.here'
+SERVER_PORT=portHere
 sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 server=(SERVER_IP,SERVER_PORT)
 print("Connected to "+SERVER_IP)
